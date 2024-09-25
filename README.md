@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/Priya-Thakur25/LeetCode/tree/master/0046-permutations) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Priya-Thakur25/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2755-extra-characters-in-a-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Priya-Thakur25/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -50,4 +51,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0344-reverse-string) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/Priya-Thakur25/LeetCode/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
