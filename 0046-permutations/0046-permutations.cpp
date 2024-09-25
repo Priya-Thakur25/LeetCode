@@ -14,8 +14,7 @@ void solve(vector<int>&nums, vector<vector<int>>&ans, int index){
 }
     vector<vector<int>> permute(vector<int>& nums) {
          vector<vector<int>>ans;
-         int index = 0;
-         solve(nums, ans , index);
+         solve(nums, ans , 0);
          return ans;
     }
 };
