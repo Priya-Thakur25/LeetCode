@@ -24,6 +24,18 @@ int solvingTab(int n, vector<int>&dp){
     }
     return dp[n];
 }
+int spaceOpti(int n){
+    if(n == 0  || n == 1) return n;
+    int prev = 0;
+    int curr = 1;
+    int ans;
+    for(int i=2; i<=n; i++){
+        ans = curr + prev;
+        prev = curr;
+        curr = ans;
+    }
+    return curr;
+}
     int fib(int n) {
         // int ans = solvingRecursion(n);
         // return ans;
@@ -32,11 +44,14 @@ int solvingTab(int n, vector<int>&dp){
         // solvingMemo(n,dp);
         // return dp[n];
 
-        vector<int>dp(n+1, -1);
-        dp[0] = 0;
-        if(n > 0) dp[1] = 1;
-        solvingTab(n, dp);
-        return dp[n];
+        // vector<int>dp(n+1, -1);
+        // dp[0] = 0;
+        // if(n > 0) dp[1] = 1;
+        // solvingTab(n, dp);
+        // return dp[n];
+
+        int ans = spaceOpti(n);
+        return ans;
 
     }
 };
