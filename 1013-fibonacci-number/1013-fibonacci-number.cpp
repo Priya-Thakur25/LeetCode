@@ -11,7 +11,7 @@ int solvingRecursion(int n){
 int solvingMemo(int n, vector<int>&dp){
     if(n == 0 || n ==  1){
         dp[n] = n;
-        return n;
+        
     }
     if(dp[n] != -1) return dp[n];
     dp[n] = solvingMemo(n-1, dp) + solvingMemo(n-2, dp);
