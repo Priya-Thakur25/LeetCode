@@ -38,14 +38,37 @@ int robTabu(vector<int>&nums, int index, vector<int>&dp){
     }
     return dp[0];
 }
+
+int robSpace(vector<int>&nums, int index){
+    if(index >= nums.size()){
+        return 0;
+    }
+
+   int n = nums.size();
+   int prev = 0;
+   int curr = nums[n-1];
+   int next = 0;
+
+    for(index=n-2; index>=0; index--){
+        int option1 = nums[index] + (((index+2) >= n)? 0 : next);
+        int option2 = 0 + curr;
+        prev = max(option1, option2);
+
+        next = curr;
+        curr = prev;
+    }
+    return curr;
+}
     int rob(vector<int>& nums) {
         int index = 0;
         int n = nums.size();
         // int ans = robRecursion(nums, index);
         // return ans;
 
-        vector<int>dp(n,-1);
-        int ans = robTabu(nums,index,dp);
+        // vector<int>dp(n,-1);
+        // int ans = robMemo(nums,index,dp);
+        // int ans = robTabu(nums,index,dp);
+        int ans = robSpace(nums,index);
         return ans;
     }
 };
