@@ -32,7 +32,7 @@ int robTabu(vector<int>&nums, int index, vector<int>&dp){
     int n = nums.size();
     dp[n-1] = nums[n-1];
     for(index=n-2; index>=0; index--){
-        int option1 = nums[index] + ((index+2 == n)? 0 : dp[index+2]);
+        int option1 = nums[index] + ((index+2 >= n)? 0 : dp[index+2]);
         int option2 = 0 + dp[index+1];
         dp[index] = max(option1, option2);
     }
