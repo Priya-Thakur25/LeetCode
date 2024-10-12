@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1923-sentence-similarity-iii](https://github.com/Priya-Thakur25/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Priya-Thakur25/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Priya-Thakur25/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Priya-Thakur25/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Priya-Thakur25/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Priya-Thakur25/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2755-extra-characters-in-a-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/2755-extra-characters-in-a-string) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0567-permutation-in-string) |
 | [1923-sentence-similarity-iii](https://github.com/Priya-Thakur25/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Priya-Thakur25/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Priya-Thakur25/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Priya-Thakur25/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Backtracking
 |  |
@@ -123,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0731-my-calendar-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0731-my-calendar-ii) |
 | [1694-make-sum-divisible-by-p](https://github.com/Priya-Thakur25/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
+| [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Priya-Thakur25/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Ordered Set
 |  |
 | ------- |
@@ -152,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1256-rank-transform-of-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/1256-rank-transform-of-an-array) |
+| [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Priya-Thakur25/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Priya-Thakur25/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Memoization
 |  |
@@ -170,8 +174,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Priya-Thakur25/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Priya-Thakur25/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Priya-Thakur25/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Priya-Thakur25/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Priya-Thakur25/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 <!---LeetCode Topics End-->
