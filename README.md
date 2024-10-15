@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0231-power-of-two](https://github.com/Priya-Thakur25/LeetCode/tree/master/0231-power-of-two) |
+| [0319-bulb-switcher](https://github.com/Priya-Thakur25/LeetCode/tree/master/0319-bulb-switcher) |
 | [0326-power-of-three](https://github.com/Priya-Thakur25/LeetCode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Priya-Thakur25/LeetCode/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/1013-fibonacci-number) |
@@ -199,4 +200,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/1349-check-if-it-is-a-straight-line) |
+## Brainteaser
+|  |
+| ------- |
+| [0319-bulb-switcher](https://github.com/Priya-Thakur25/LeetCode/tree/master/0319-bulb-switcher) |
 <!---LeetCode Topics End-->
