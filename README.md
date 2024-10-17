@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/Priya-Thakur25/LeetCode/tree/master/0035-search-insert-position) |
 | [0046-permutations](https://github.com/Priya-Thakur25/LeetCode/tree/master/0046-permutations) |
+| [0066-plus-one](https://github.com/Priya-Thakur25/LeetCode/tree/master/0066-plus-one) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0198-house-robber](https://github.com/Priya-Thakur25/LeetCode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Priya-Thakur25/LeetCode/tree/master/0322-coin-change) |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/Priya-Thakur25/LeetCode/tree/master/0066-plus-one) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0231-power-of-two](https://github.com/Priya-Thakur25/LeetCode/tree/master/0231-power-of-two) |
 | [0319-bulb-switcher](https://github.com/Priya-Thakur25/LeetCode/tree/master/0319-bulb-switcher) |
