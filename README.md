@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Priya-Thakur25/LeetCode/tree/master/0035-search-insert-position) |
 | [0046-permutations](https://github.com/Priya-Thakur25/LeetCode/tree/master/0046-permutations) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0198-house-robber](https://github.com/Priya-Thakur25/LeetCode/tree/master/0198-house-robber) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Priya-Thakur25/LeetCode/tree/master/0035-search-insert-position) |
 | [0731-my-calendar-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0731-my-calendar-ii) |
 ## Design
 |  |
