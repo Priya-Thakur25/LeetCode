@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Priya-Thakur25/LeetCode/tree/master/0001-two-sum) |
 | [0035-search-insert-position](https://github.com/Priya-Thakur25/LeetCode/tree/master/0035-search-insert-position) |
 | [0046-permutations](https://github.com/Priya-Thakur25/LeetCode/tree/master/0046-permutations) |
 | [0066-plus-one](https://github.com/Priya-Thakur25/LeetCode/tree/master/0066-plus-one) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Priya-Thakur25/LeetCode/tree/master/0001-two-sum) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0432-all-oone-data-structure](https://github.com/Priya-Thakur25/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0567-permutation-in-string) |
