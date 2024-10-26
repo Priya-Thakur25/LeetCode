@@ -3,7 +3,7 @@ public:
     string finalString(string s) {
         int len = s.length();
         int i = 0;
-        string ans;
+        string ans = "";
         while(i < len){
             char ch  = s[i];
             if(ch == 'i' && i != 0){
