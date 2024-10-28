@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0136-single-number) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0198-house-robber](https://github.com/Priya-Thakur25/LeetCode/tree/master/0198-house-robber) |
+| [0268-missing-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0268-missing-number) |
 | [0322-coin-change](https://github.com/Priya-Thakur25/LeetCode/tree/master/0322-coin-change) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0724-find-pivot-index](https://github.com/Priya-Thakur25/LeetCode/tree/master/0724-find-pivot-index) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/Priya-Thakur25/LeetCode/tree/master/0066-plus-one) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0231-power-of-two](https://github.com/Priya-Thakur25/LeetCode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0268-missing-number) |
 | [0319-bulb-switcher](https://github.com/Priya-Thakur25/LeetCode/tree/master/0319-bulb-switcher) |
 | [0326-power-of-three](https://github.com/Priya-Thakur25/LeetCode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Priya-Thakur25/LeetCode/tree/master/0342-power-of-four) |
@@ -84,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Priya-Thakur25/LeetCode/tree/master/0001-two-sum) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
+| [0268-missing-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0268-missing-number) |
 | [0432-all-oone-data-structure](https://github.com/Priya-Thakur25/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -148,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Priya-Thakur25/LeetCode/tree/master/0035-search-insert-position) |
+| [0268-missing-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0268-missing-number) |
 | [0731-my-calendar-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0731-my-calendar-ii) |
 ## Design
 |  |
@@ -177,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/Priya-Thakur25/LeetCode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0268-missing-number) |
 | [0342-power-of-four](https://github.com/Priya-Thakur25/LeetCode/tree/master/0342-power-of-four) |
 ## Linked List
 |  |
@@ -202,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0268-missing-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1256-rank-transform-of-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Priya-Thakur25/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
