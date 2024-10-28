@@ -17,9 +17,6 @@ public:
                 ans.push_back(nums1[i]);
                 i++,j++;
             }
-            else{
-                break;
-            }
         }
         return ans;
     }
