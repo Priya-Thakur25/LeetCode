@@ -8,10 +8,10 @@ public:
         vector<int>ans;
         while(i < n1 && j < n2){
             if(nums1[i] < nums2[j]){
-                if(i < n1) i++;
+                i++;
             }
             else if(nums1[i] > nums2[j]){
-                if(j < n2) j++;
+                j++;
             }
             else if(nums1[i] == nums2[j]){ 
                 ans.push_back(nums1[i]);
