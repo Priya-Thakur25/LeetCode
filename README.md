@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0136-single-number) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0198-house-robber](https://github.com/Priya-Thakur25/LeetCode/tree/master/0198-house-robber) |
+| [0217-contains-duplicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Priya-Thakur25/LeetCode/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/Priya-Thakur25/LeetCode/tree/master/0322-coin-change) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Priya-Thakur25/LeetCode/tree/master/0001-two-sum) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
+| [0217-contains-duplicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0268-missing-number) |
 | [0432-all-oone-data-structure](https://github.com/Priya-Thakur25/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0567-permutation-in-string) |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0268-missing-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1256-rank-transform-of-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/1256-rank-transform-of-an-array) |
