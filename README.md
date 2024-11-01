@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Priya-Thakur25/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Priya-Thakur25/LeetCode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Priya-Thakur25/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Priya-Thakur25/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Priya-Thakur25/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Priya-Thakur25/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Priya-Thakur25/LeetCode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
