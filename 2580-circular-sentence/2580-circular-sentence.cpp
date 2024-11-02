@@ -6,10 +6,10 @@ public:
         int i = 0;
         while(i < n){
             if(i == 0) str.push_back(s[i]);
-            if(i+1 < n && ((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z')) && s[i+1] == ' '){
+            if(i+1 < n && s[i+1] == ' '){
                 str.push_back(s[i]);
             }
-            if(i-1 >=0 && ((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z')) && s[i-1] == ' '){
+            if(i-1 >=0 && s[i-1] == ' '){
                 str.push_back(s[i]);
             }
             
@@ -19,7 +19,6 @@ public:
         int size = str.size();
         i = 0;
         while(i < size){
-            cout << str[i] << endl;
             if(str[i] != str[i+1]){
                 return false;
             }
