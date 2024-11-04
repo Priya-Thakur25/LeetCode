@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2819-remove-trailing-zeros-from-a-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/2819-remove-trailing-zeros-from-a-string) |
 | [2886-faulty-keyboard](https://github.com/Priya-Thakur25/LeetCode/tree/master/2886-faulty-keyboard) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Priya-Thakur25/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3451-string-compression-iii](https://github.com/Priya-Thakur25/LeetCode/tree/master/3451-string-compression-iii) |
 ## Dynamic Programming
 |  |
 | ------- |
