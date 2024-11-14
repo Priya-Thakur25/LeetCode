@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Priya-Thakur25/LeetCode/tree/master/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/Priya-Thakur25/LeetCode/tree/master/0066-plus-one) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0189-rotate-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/0189-rotate-array) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Priya-Thakur25/LeetCode/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/Priya-Thakur25/LeetCode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/Priya-Thakur25/LeetCode/tree/master/0049-group-anagrams) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0217-contains-duplicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/0217-contains-duplicate) |
@@ -134,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Priya-Thakur25/LeetCode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Priya-Thakur25/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Priya-Thakur25/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Priya-Thakur25/LeetCode/tree/master/0022-generate-parentheses) |
