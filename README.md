@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/Priya-Thakur25/LeetCode/tree/master/0645-set-mismatch) |
 | [0724-find-pivot-index](https://github.com/Priya-Thakur25/LeetCode/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0731-my-calendar-ii) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Priya-Thakur25/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1256-rank-transform-of-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Priya-Thakur25/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/Priya-Thakur25/LeetCode/tree/master/0645-set-mismatch) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Priya-Thakur25/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1256-rank-transform-of-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Priya-Thakur25/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/Priya-Thakur25/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
@@ -359,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Priya-Thakur25/LeetCode/tree/master/0054-spiral-matrix) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Priya-Thakur25/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 ## Number Theory
 |  |
 | ------- |
