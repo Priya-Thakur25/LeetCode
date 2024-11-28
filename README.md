@@ -346,15 +346,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Priya-Thakur25/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Divide and Conquer
 |  |
@@ -382,4 +385,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3189-find-champion-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/3189-find-champion-ii) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Priya-Thakur25/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
