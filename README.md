@@ -347,12 +347,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Priya-Thakur25/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Priya-Thakur25/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Priya-Thakur25/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -360,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Priya-Thakur25/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Divide and Conquer
@@ -392,5 +395,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Priya-Thakur25/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 <!---LeetCode Topics End-->
