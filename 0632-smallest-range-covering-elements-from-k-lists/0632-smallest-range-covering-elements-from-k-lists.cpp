@@ -1,42 +1,49 @@
+class Merge{
+    public:
+    int data;
+    int row;
+    int col;
+};
+class compare{
+    public:
+    bool operator()(Merge a, Merge b){
+        return a.data > b.data;
+    }
+};
 class Solution {
 public:
     vector<int> smallestRange(vector<vector<int>>& nums) {
-        // Min-heap to store (value, list index, element index)
-        priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<pair<int, pair<int, int>>>> minHeap;
-        
-        int maxValue = INT_MIN;  // To keep track of the maximum value in the current window
-        int rangeStart = 0, rangeEnd = INT_MAX;  // To store the smallest range
-
-        // Insert the first element from each list into the heap
-        for (int i = 0; i < nums.size(); ++i) {
-            minHeap.push({nums[i][0], {i, 0}});
-            maxValue = max(maxValue, nums[i][0]);  // Update the maximum value
+        priority_queue<Merge, vector<Merge>, compare>pq;
+        int maxi = INT_MIN;
+        int mini = INT_MAX;
+        for(int i=0; i<nums.size(); i++){
+            pq.push({nums[i][0], i, 0});
+            maxi = max(maxi,nums[i][0]);
+            mini = min(mini,nums[i][0]);
         }
 
-        // Process the heap
-        while (true) {
-            auto [minValue, indices] = minHeap.top();  // Get the smallest element
-            int listIndex = indices.first;  // List from which the element came
-            int elementIndex = indices.second;  // Index of the element in the list
-            minHeap.pop();
+        int ansstart = mini;
+        int ansend = maxi;
+        while(!pq.empty()){
+            int topval = pq.top().data;
+            int toprow = pq.top().row;
+            int topcol = pq.top().col;
+            mini = topval;
 
-            // Update the range if it's smaller than the current best range
-            if (maxValue - minValue < rangeEnd - rangeStart) {
-                rangeStart = minValue;
-                rangeEnd = maxValue;
+            if(maxi-mini < ansend-ansstart){
+                ansend = maxi;
+                ansstart = mini;
             }
 
-            // Move to the next element in the current list
-            if (elementIndex + 1 < nums[listIndex].size()) {
-                int nextValue = nums[listIndex][elementIndex + 1];
-                minHeap.push({nextValue, {listIndex, elementIndex + 1}});
-                maxValue = max(maxValue, nextValue);  // Update the maximum value
-            } else {
-                // If any list is exhausted, we are done
-                break;
+            pq.pop();
+            if(topcol+1 < nums[toprow].size()){
+                pq.push({nums[toprow][topcol+1], toprow, topcol+1});
             }
+            else break;
+            if(nums[toprow][topcol+1] > maxi) maxi = nums[toprow][topcol + 1];
         }
 
-        return {rangeStart, rangeEnd};
+        return {ansstart,ansend};
+
     }
 };
