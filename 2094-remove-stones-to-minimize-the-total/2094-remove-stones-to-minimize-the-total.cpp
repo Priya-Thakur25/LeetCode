@@ -7,10 +7,8 @@ public:
         }
 
         while(k--){
-            float val = pq.top();
+            int val = ceil((float)pq.top()/2);
             pq.pop();
-            val = val/2;
-            val = ceil(val);
             pq.push(val);
         }
 
