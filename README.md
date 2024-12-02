@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/Priya-Thakur25/LeetCode/tree/master/0645-set-mismatch) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Priya-Thakur25/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0778-reorganize-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0778-reorganize-string) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Priya-Thakur25/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1256-rank-transform-of-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Priya-Thakur25/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0567-permutation-in-string) |
+| [0778-reorganize-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0778-reorganize-string) |
 | [0812-rotate-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0812-rotate-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Priya-Thakur25/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/Priya-Thakur25/LeetCode/tree/master/1197-parsing-a-boolean-expression) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+| [0778-reorganize-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0778-reorganize-string) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Priya-Thakur25/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Priya-Thakur25/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Binary Search
@@ -306,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0414-third-maximum-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/Priya-Thakur25/LeetCode/tree/master/0645-set-mismatch) |
+| [0778-reorganize-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0778-reorganize-string) |
 | [1256-rank-transform-of-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Priya-Thakur25/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Priya-Thakur25/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -339,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Priya-Thakur25/LeetCode/tree/master/0011-container-with-most-water) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/Priya-Thakur25/LeetCode/tree/master/0670-maximum-swap) |
+| [0778-reorganize-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0778-reorganize-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Priya-Thakur25/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2089-maximum-matrix-sum](https://github.com/Priya-Thakur25/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Priya-Thakur25/LeetCode/tree/master/2094-remove-stones-to-minimize-the-total) |
@@ -351,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0778-reorganize-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0778-reorganize-string) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Priya-Thakur25/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Priya-Thakur25/LeetCode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Priya-Thakur25/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
