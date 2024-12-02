@@ -1,22 +1,64 @@
+class Trie{
+    public:
+    char val;
+    Trie* children[26];
+    bool isTerminal;
+    
+    Trie(char val){
+        this->val = val;
+        for(int i=0; i<26; i++){
+            this->children[i] = NULL;
+        }
+        this->isTerminal = false;
+    }
+};
+
+//insertion
+void insertion(Trie* root, string word){
+    if(word.length() == 0){
+        root->isTerminal = true;
+        return;
+    }
+    
+    char ch = word[0];
+    int index = ch - 'a';
+    Trie* child;
+    if(root->children[index] != NULL){
+        //already present a character
+        child = root->children[index];
+    }
+    else{
+        //bana li h bs fill krdo
+        child = new Trie(ch);
+        root->children[index] = child;
+    }
+    //recursive call 
+    insertion(child, word.substr(1));
+}
+
+void helper(Trie* root, int count, string &ans){
+    if(root == NULL || root->isTerminal) return;
+    int index = 0;
+    for(int i=0 ; i<26; i++){
+        if(root->children[i] != NULL){
+            index = i;
+            count++;
+        }
+    }
+    if(count > 1) return;
+    if(count == 1) ans = ans+root->children[index]->val;
+    helper(root->children[index], 0, ans);
+}
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
-        int n = strs.size();
-        sort(strs.begin(), strs.end());
-        int i=0, j=n-1;
-        string ans,s1 = strs[i];
-        string s2 = strs[j];
-        int n1 = s1.length(), n2 = s2.length();
-        i=0,j=0;
-        while(i < n1 && i < n2){
-            if(s1[i] == s2[i]){
-                ans.push_back(s1[i]);
-            }
-            else{
-                break;
-            }
-            i++;
+        Trie* temp = new Trie('-');
+        for(int i=0 ;i<strs.size(); i++){
+            insertion(temp, strs[i]);
         }
-        return ans;
+        string tempstr = "";
+        int count = 0;
+        helper(temp, count, tempstr);
+        return tempstr;
     }
 };
