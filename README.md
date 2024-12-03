@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/Priya-Thakur25/LeetCode/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0731-my-calendar-ii) |
 | [0787-sliding-puzzle](https://github.com/Priya-Thakur25/LeetCode/tree/master/0787-sliding-puzzle) |
+| [1014-k-closest-points-to-origin](https://github.com/Priya-Thakur25/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Priya-Thakur25/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1256-rank-transform-of-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/1349-check-if-it-is-a-straight-line) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Priya-Thakur25/LeetCode/tree/master/0342-power-of-four) |
 | [0670-maximum-swap](https://github.com/Priya-Thakur25/LeetCode/tree/master/0670-maximum-swap) |
 | [1013-fibonacci-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/1013-fibonacci-number) |
+| [1014-k-closest-points-to-origin](https://github.com/Priya-Thakur25/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Priya-Thakur25/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2716-prime-subtraction-operation](https://github.com/Priya-Thakur25/LeetCode/tree/master/2716-prime-subtraction-operation) |
@@ -311,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/Priya-Thakur25/LeetCode/tree/master/0645-set-mismatch) |
 | [0778-reorganize-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0778-reorganize-string) |
+| [1014-k-closest-points-to-origin](https://github.com/Priya-Thakur25/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1256-rank-transform-of-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Priya-Thakur25/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Priya-Thakur25/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -359,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0778-reorganize-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0778-reorganize-string) |
+| [1014-k-closest-points-to-origin](https://github.com/Priya-Thakur25/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1304-longest-happy-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/1304-longest-happy-string) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Priya-Thakur25/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Priya-Thakur25/LeetCode/tree/master/2094-remove-stones-to-minimize-the-total) |
@@ -370,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
+| [1014-k-closest-points-to-origin](https://github.com/Priya-Thakur25/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/1349-check-if-it-is-a-straight-line) |
 ## Brainteaser
 |  |
@@ -408,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/Priya-Thakur25/LeetCode/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [1014-k-closest-points-to-origin](https://github.com/Priya-Thakur25/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## String Matching
 |  |
 | ------- |
@@ -456,4 +462,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [1014-k-closest-points-to-origin](https://github.com/Priya-Thakur25/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
