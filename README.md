@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Priya-Thakur25/LeetCode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0268-missing-number) |
+| [0292-nim-game](https://github.com/Priya-Thakur25/LeetCode/tree/master/0292-nim-game) |
 | [0319-bulb-switcher](https://github.com/Priya-Thakur25/LeetCode/tree/master/0319-bulb-switcher) |
 | [0326-power-of-three](https://github.com/Priya-Thakur25/LeetCode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Priya-Thakur25/LeetCode/tree/master/0342-power-of-four) |
@@ -383,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Brainteaser
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/Priya-Thakur25/LeetCode/tree/master/0292-nim-game) |
 | [0319-bulb-switcher](https://github.com/Priya-Thakur25/LeetCode/tree/master/0319-bulb-switcher) |
 ## Tree
 |  |
@@ -467,4 +469,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/Priya-Thakur25/LeetCode/tree/master/1014-k-closest-points-to-origin) |
+## Game Theory
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Priya-Thakur25/LeetCode/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
