@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1497-design-a-stack-with-increment-operation](https://github.com/Priya-Thakur25/LeetCode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Priya-Thakur25/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/Priya-Thakur25/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
+| [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Priya-Thakur25/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1923-sentence-similarity-iii](https://github.com/Priya-Thakur25/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Priya-Thakur25/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1972-rotating-the-box](https://github.com/Priya-Thakur25/LeetCode/tree/master/1972-rotating-the-box) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0731-my-calendar-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0731-my-calendar-ii) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Priya-Thakur25/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Priya-Thakur25/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Priya-Thakur25/LeetCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2716-prime-subtraction-operation](https://github.com/Priya-Thakur25/LeetCode/tree/master/2716-prime-subtraction-operation) |
