@@ -2,11 +2,9 @@ class Solution {
 public:
 void solve(int& src, vector<vector<int>>& isConnected, int n, unordered_map<int,bool>&isVisited){
     isVisited[src] = 1;
-    int row = src;
-    int col = n;
-    for(int i=0; i<col; i++){
+    for(int i=0; i<n; i++){
         int nbr = i;
-        if(src != nbr && isConnected[row][nbr] == 1){
+        if(src != nbr && isConnected[src][nbr] == 1){
             if(!isVisited[nbr]){
                 solve(nbr, isConnected, n, isVisited);
             }
