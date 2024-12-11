@@ -54,7 +54,6 @@ public:
         
         vector<int>Order;
         g.topoOrder(Order);
-        if(Order.size() != numCourses) return {};
-        return Order;
+        return Order.size() == numCourses ? Order : vector<int>{};
     }
 };
