@@ -360,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Priya-Thakur25/LeetCode/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/Priya-Thakur25/LeetCode/tree/master/0322-coin-change) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Priya-Thakur25/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0787-sliding-puzzle](https://github.com/Priya-Thakur25/LeetCode/tree/master/0787-sliding-puzzle) |
@@ -423,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0207-course-schedule](https://github.com/Priya-Thakur25/LeetCode/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Priya-Thakur25/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Priya-Thakur25/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -467,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Priya-Thakur25/LeetCode/tree/master/0207-course-schedule) |
 | [2201-valid-arrangement-of-pairs](https://github.com/Priya-Thakur25/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Priya-Thakur25/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Priya-Thakur25/LeetCode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -497,4 +500,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/Priya-Thakur25/LeetCode/tree/master/0292-nim-game) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Priya-Thakur25/LeetCode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
