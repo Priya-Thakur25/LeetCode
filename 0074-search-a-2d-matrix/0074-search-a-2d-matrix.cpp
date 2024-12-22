@@ -15,6 +15,7 @@ public:
         for(int j=0; j<col; j++){
             if(i-1 >=0 && m[i-1][j] == target){
                 finded = 1;
+                break;
             }
         }
         if(finded) return true;
