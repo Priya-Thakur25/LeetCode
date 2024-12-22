@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Priya-Thakur25/LeetCode/tree/master/0013-roman-to-integer) |
+| [0050-powx-n](https://github.com/Priya-Thakur25/LeetCode/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/Priya-Thakur25/LeetCode/tree/master/0066-plus-one) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0189-rotate-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/0189-rotate-array) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Priya-Thakur25/LeetCode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Priya-Thakur25/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Priya-Thakur25/LeetCode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Priya-Thakur25/LeetCode/tree/master/0234-palindrome-linked-list) |
