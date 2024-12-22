@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/Priya-Thakur25/LeetCode/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/Priya-Thakur25/LeetCode/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/Priya-Thakur25/LeetCode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/Priya-Thakur25/LeetCode/tree/master/0066-plus-one) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0189-rotate-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/0189-rotate-array) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Priya-Thakur25/LeetCode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Priya-Thakur25/LeetCode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/Priya-Thakur25/LeetCode/tree/master/0062-unique-paths) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Priya-Thakur25/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Priya-Thakur25/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Priya-Thakur25/LeetCode/tree/master/0198-house-robber) |
@@ -556,4 +558,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0780-max-chunks-to-make-sorted](https://github.com/Priya-Thakur25/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Priya-Thakur25/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Priya-Thakur25/LeetCode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
