@@ -10,63 +10,37 @@
  */
 class Solution {
 public:
+bool checkPalindrome(ListNode* head1, ListNode* head2){
+    if(head1 == NULL || head2 == NULL) return true;
+    if(head1 != NULL && head2 != NULL && head1->val != head2->val) return false;    
+    return checkPalindrome(head1->next, head2->next);
+}
+
 ListNode* reverse(ListNode* head){
     ListNode* prev = NULL;
     ListNode* curr = head;
     while(curr != NULL){
         ListNode* temp = curr->next;
-         curr->next = prev;
-         prev = curr;
-         curr = temp;
+        curr->next = prev;
+        prev = curr;
+        curr = temp;
     }
     return prev;
 }
     bool isPalindrome(ListNode* head) {
-        ListNode* prev = NULL;
-        ListNode* curr = head;
-        int count = 0;
-        while(curr != NULL){
-            count++;
-            prev = curr;
-            curr = curr->next;
-        }
-        
-        prev = NULL;
-        curr = head;
-        ListNode* LL1 = head;
-        int i=0;
-        while(i != count/2){
-            prev = curr;
-            curr = curr->next;
-            i++;
-        }
-        if(count > 1){
-            prev->next = NULL;   
-        }
-
-        if(count/2 > 1){
-            LL1 = reverse(head);
-        }
-        else{
-            LL1 = head;
-        }
-
-        ListNode* LL2;
-        if(count%2 == 0){
-           LL2 = curr;   
-        }
-        else{
-            LL2 = curr->next;
-        }
-        while(LL2 != NULL){
-            if(LL1->val != LL2->val){
-                return false;
+        ListNode* slow = head;
+        ListNode* fast =  head;
+        while(fast != NULL){
+            fast = fast->next;
+            if(fast != NULL && fast->next != NULL){
+                slow = slow->next;
+                fast = fast->next;
             }
-            LL1 = LL1->next;
-            LL2 = LL2->next;
         }
 
-        return true;
-
+        ListNode* temp2 = slow->next;
+        slow->next = NULL;
+        ListNode* Node2 = reverse(temp2);
+        return checkPalindrome(head, Node2);
     }
 };
