@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Priya-Thakur25/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Priya-Thakur25/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/Priya-Thakur25/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Priya-Thakur25/LeetCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Priya-Thakur25/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1917-maximum-average-pass-ratio](https://github.com/Priya-Thakur25/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/Priya-Thakur25/LeetCode/tree/master/1923-sentence-similarity-iii) |
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1304-longest-happy-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/1304-longest-happy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Priya-Thakur25/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Priya-Thakur25/LeetCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Priya-Thakur25/LeetCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1923-sentence-similarity-iii](https://github.com/Priya-Thakur25/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Priya-Thakur25/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Priya-Thakur25/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -248,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Priya-Thakur25/LeetCode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [1013-fibonacci-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/1013-fibonacci-number) |
 | [1063-best-sightseeing-pair](https://github.com/Priya-Thakur25/LeetCode/tree/master/1063-best-sightseeing-pair) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Priya-Thakur25/LeetCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [2164-two-best-non-overlapping-events](https://github.com/Priya-Thakur25/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/2755-extra-characters-in-a-string) |
