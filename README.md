@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/Priya-Thakur25/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Priya-Thakur25/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/Priya-Thakur25/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0136-single-number) |
 | [0149-max-points-on-a-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0152-maximum-product-subarray](https://github.com/Priya-Thakur25/LeetCode/tree/master/0152-maximum-product-subarray) |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Priya-Thakur25/LeetCode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/Priya-Thakur25/LeetCode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/Priya-Thakur25/LeetCode/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/Priya-Thakur25/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/Priya-Thakur25/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Priya-Thakur25/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0142-linked-list-cycle-ii) |
@@ -602,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Priya-Thakur25/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/Priya-Thakur25/LeetCode/tree/master/0547-number-of-provinces) |
 ## Database
 |  |
