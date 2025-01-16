@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Priya-Thakur25/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Priya-Thakur25/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Priya-Thakur25/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Priya-Thakur25/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Priya-Thakur25/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Priya-Thakur25/LeetCode/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -404,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Priya-Thakur25/LeetCode/tree/master/0342-power-of-four) |
 | [0645-set-mismatch](https://github.com/Priya-Thakur25/LeetCode/tree/master/0645-set-mismatch) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Priya-Thakur25/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Priya-Thakur25/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Priya-Thakur25/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Linked List
 |  |
@@ -547,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0292-nim-game](https://github.com/Priya-Thakur25/LeetCode/tree/master/0292-nim-game) |
 | [0319-bulb-switcher](https://github.com/Priya-Thakur25/LeetCode/tree/master/0319-bulb-switcher) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Priya-Thakur25/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 ## Tree
 |  |
 | ------- |
