@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Priya-Thakur25/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/Priya-Thakur25/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Priya-Thakur25/LeetCode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/0287-find-the-duplicate-number) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Priya-Thakur25/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Priya-Thakur25/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Simulation
@@ -480,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Priya-Thakur25/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0567-permutation-in-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Priya-Thakur25/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -524,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/Priya-Thakur25/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0778-reorganize-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/Priya-Thakur25/LeetCode/tree/master/1014-k-closest-points-to-origin) |
@@ -692,4 +696,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Priya-Thakur25/LeetCode/tree/master/0493-reverse-pairs) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Priya-Thakur25/LeetCode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
