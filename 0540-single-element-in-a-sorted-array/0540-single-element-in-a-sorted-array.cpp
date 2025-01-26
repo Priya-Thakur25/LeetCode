@@ -4,7 +4,6 @@ public:
         int n = nums.size();
         int s = 0; 
         int e = n-1;
-        if(n == 1) return nums[s];
         while(s <= e){
             int mid = s + (e-s)/2;
             if(s == e) return nums[s];
