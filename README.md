@@ -593,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Priya-Thakur25/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1396-count-servers-that-communicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [2201-valid-arrangement-of-pairs](https://github.com/Priya-Thakur25/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Priya-Thakur25/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/Priya-Thakur25/LeetCode/tree/master/3058-maximum-number-of-k-divisible-components) |
 ## Binary Tree
@@ -649,6 +650,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Priya-Thakur25/LeetCode/tree/master/0547-number-of-provinces) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Priya-Thakur25/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2201-valid-arrangement-of-pairs](https://github.com/Priya-Thakur25/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Priya-Thakur25/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Priya-Thakur25/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Priya-Thakur25/LeetCode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [3189-find-champion-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/3189-find-champion-ii) |
@@ -684,6 +686,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Priya-Thakur25/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0210-course-schedule-ii) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Priya-Thakur25/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Union Find
 |  |
 | ------- |
