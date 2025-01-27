@@ -28,10 +28,25 @@ int solveUsingTab(int n, vector<int>&dp){
 
     return dp[n];
 }
+
+//space Optimization
+int spaceOptimize(int n){
+    int first = 0;
+    int sec = 1;
+    if(n == 1) return 1;
+    int now=0;
+    for(int i=2; i<=n; i++){
+         now = first+sec;
+         first = sec;
+         sec = now;
+    }
+    return now;
+}
     int fib(int n) {
         vector<int>dp(n+1,-1);
         // return solveUsingMem(n, dp);
 
+        return spaceOptimize(n);
         return solveUsingTab(n,dp);
     }
 };
