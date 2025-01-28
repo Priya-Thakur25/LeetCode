@@ -11,17 +11,32 @@ public:
 // }
     int rob(vector<int>& nums) {
         int n = nums.size();
-        vector<int>dp(n, -1);
-        // return solve(0, nums, dp);
+        // vector<int>dp(n, -1);
+        // // return solve(0, nums, dp);
 
-        dp[n-1] = nums[n-1];
+        // dp[n-1] = nums[n-1];
+        // for(int i=n-2; i>=0; i--){
+        //     int temp = 0;
+        //     if(i+2 < n) temp = dp[i+2];
+        //     int inc = nums[i] + temp;
+        //     int exc = 0 + dp[i+1];
+        //     dp[i] = max(inc, exc); 
+        // }
+        // return dp[0];
+
+        //SPACE OPTIMIZATION -- curr -> prev -> next
+        int prev = nums[n-1];
+        int next = 0;
+        int curr = 0;
         for(int i=n-2; i>=0; i--){
             int temp = 0;
-            if(i+2 < n) temp = dp[i+2];
+            if(i+2 < n) temp = next;
             int inc = nums[i] + temp;
-            int exc = 0 + dp[i+1];
-            dp[i] = max(inc, exc); 
+            int exc = 0 + prev;
+            curr = max(inc, exc);
+            next = prev;
+            prev = curr;
         }
-        return dp[0];
+        return prev;
     }
 };
