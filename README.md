@@ -526,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Priya-Thakur25/LeetCode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/Priya-Thakur25/LeetCode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Priya-Thakur25/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0684-redundant-connection](https://github.com/Priya-Thakur25/LeetCode/tree/master/0684-redundant-connection) |
 | [0787-sliding-puzzle](https://github.com/Priya-Thakur25/LeetCode/tree/master/0787-sliding-puzzle) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/1396-count-servers-that-communicate) |
@@ -614,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Priya-Thakur25/LeetCode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/Priya-Thakur25/LeetCode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Priya-Thakur25/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0684-redundant-connection](https://github.com/Priya-Thakur25/LeetCode/tree/master/0684-redundant-connection) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Priya-Thakur25/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1396-count-servers-that-communicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/Priya-Thakur25/LeetCode/tree/master/1558-course-schedule-iv) |
@@ -677,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Priya-Thakur25/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Priya-Thakur25/LeetCode/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/Priya-Thakur25/LeetCode/tree/master/0684-redundant-connection) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Priya-Thakur25/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/Priya-Thakur25/LeetCode/tree/master/1558-course-schedule-iv) |
 | [2201-valid-arrangement-of-pairs](https://github.com/Priya-Thakur25/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
@@ -724,6 +727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Priya-Thakur25/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/Priya-Thakur25/LeetCode/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/Priya-Thakur25/LeetCode/tree/master/0684-redundant-connection) |
 | [1396-count-servers-that-communicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Priya-Thakur25/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Database
