@@ -46,14 +46,38 @@ public:
         return dp[i][j];
     }
 
+    int solveUsingTab(string s){
+        int n = s.length();
+        int st = 0;
+        int en = n-1;
+        vector<vector<int>>dp(n+1,vector<int>(n+1,0));
 
+
+        for(int i=n-1; i>=0; i--){
+            for(int j=0; j<n; j++){
+                if(isPalindrome(s,i,j)){
+                    if(len < j-i+1){
+                    index = i;
+                    len = j-i+1;
+                    }
+                dp[i][j] = j-i+1;
+                continue;
+                }
+                int opt1 = dp[i+1][j];
+                int opt2 = dp[i][j-1];
+                dp[i][j] = max(opt1,opt2);
+            }
+        }
+        return dp[0][n-1];
+    }
     string longestPalindrome(string s) {
         int n = s.length();
         int st = 0;
         int en = n-1;
         vector<vector<int>>dp(n+1,vector<int>(n+1,-1));
         // solve(s, st, en);
-        solveUsingMem(s,st,en,dp);
+        // solveUsingMem(s,st,en,dp);
+        solveUsingTab(s);
         string ans = s.substr(index, len);
         return ans;
     }
