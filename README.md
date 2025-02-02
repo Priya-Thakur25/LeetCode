@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/Priya-Thakur25/LeetCode/tree/master/0392-is-subsequence) |
+| [0516-longest-palindromic-subsequence](https://github.com/Priya-Thakur25/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0567-permutation-in-string) |
 | [0778-reorganize-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0778-reorganize-string) |
 | [0812-rotate-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0812-rotate-string) |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Priya-Thakur25/LeetCode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Priya-Thakur25/LeetCode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/Priya-Thakur25/LeetCode/tree/master/0392-is-subsequence) |
+| [0516-longest-palindromic-subsequence](https://github.com/Priya-Thakur25/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Priya-Thakur25/LeetCode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [1013-fibonacci-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/Priya-Thakur25/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
