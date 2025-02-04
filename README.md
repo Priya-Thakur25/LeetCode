@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/Priya-Thakur25/LeetCode/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/Priya-Thakur25/LeetCode/tree/master/0049-group-anagrams) |
+| [0072-edit-distance](https://github.com/Priya-Thakur25/LeetCode/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/Priya-Thakur25/LeetCode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Priya-Thakur25/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0140-word-break-ii) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Priya-Thakur25/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Priya-Thakur25/LeetCode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Priya-Thakur25/LeetCode/tree/master/0062-unique-paths) |
+| [0072-edit-distance](https://github.com/Priya-Thakur25/LeetCode/tree/master/0072-edit-distance) |
 | [0118-pascals-triangle](https://github.com/Priya-Thakur25/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Priya-Thakur25/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/Priya-Thakur25/LeetCode/tree/master/0131-palindrome-partitioning) |
