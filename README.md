@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Priya-Thakur25/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1917-maximum-average-pass-ratio](https://github.com/Priya-Thakur25/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/Priya-Thakur25/LeetCode/tree/master/1923-sentence-similarity-iii) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/Priya-Thakur25/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Priya-Thakur25/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1972-rotating-the-box](https://github.com/Priya-Thakur25/LeetCode/tree/master/1972-rotating-the-box) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Priya-Thakur25/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
