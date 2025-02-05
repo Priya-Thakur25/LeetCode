@@ -25,18 +25,18 @@ public:
         dp[prev + 1][curr] = max(op1, op2);
         return dp[prev + 1][curr];
     }
+
     int solveUsingTab(vector<int>& nums) {
         int n = nums.size();
         vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
 
-        for (int curr = n - 1; curr >= 0; curr--) {
-            for (int prev = curr - 1; prev >= -1; prev--) {
-
+        for (int curr_id = n - 1; curr_id >= 0; curr_id--) {
+            for (int prev_id = curr_id - 1; prev_id >= -1; prev_id--) {
                 int op1 = 0;
-                if (prev == -1 || nums[prev] < nums[curr])
-                    op1 = 1 + dp[curr+1][curr + 1];
-                int op2 = 0 + dp[prev+1][curr + 1];
-                dp[prev + 1][curr] = max(op1, op2);
+                if (prev_id == -1 || nums[prev_id] < nums[curr_id])
+                    op1 = 1 + dp[curr_id+1][curr_id + 1];
+                int op2 = 0 + dp[prev_id+1][curr_id + 1];
+                dp[prev_id + 1][curr_id] = max(op1, op2);
             }
         }
         return dp[0][0];
