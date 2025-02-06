@@ -6,30 +6,26 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
- * right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
 public:
-    int Height(TreeNode* root) {
-        if (root == NULL)
-            return 0;
-        int leftHeight = Height(root->left);
-        int rightHeight = Height(root->right);
-        return max(leftHeight, rightHeight) + 1;
+    int Height(TreeNode* root){
+        if(root == NULL) return 0;
+        return max(Height(root->left), Height(root->right))+1;
     }
     bool isBalanced(TreeNode* root) {
-        if(root == NULL) return true;
-        int Lefti = Height(root->left);
-        int righty = Height(root->right);
-        int diff = abs(Lefti - righty);
-        bool currkaans = (diff <= 1);
+        if(root == NULL) return 1;
 
-        bool leftans = isBalanced(root->left);
-        bool rightans = isBalanced(root->right);
+        int LeftH = Height(root->left);
+        int RightH = Height(root->right);
 
-        return (currkaans && leftans && rightans);
-       
+        bool diff = (abs(LeftH-RightH) <= 1);
+        bool Leftkaans = isBalanced(root->left);
+        bool rightkaans = isBalanced(root->right);
+
+        if(diff && Leftkaans && rightkaans) return true;
+        return false;
     }
 };
