@@ -11,16 +11,12 @@
  */
 class Solution {
 public:  
-    TreeNode* solve(TreeNode* root, int val){
+    
+    TreeNode* searchBST(TreeNode* root, int val) {
         if(root == NULL) return NULL;
         if(root->val == val) return root;
-
-        TreeNode* temp1 = NULL;
-        if(root->val > val) temp1 = searchBST(root->left,val);
-        else if(root->val < val) temp1 = searchBST(root->right,val);
-        return temp1;
-    }
-    TreeNode* searchBST(TreeNode* root, int val) {
-        return solve(root,val);
+        if(root->val > val) return searchBST(root->left,val);
+        else if(root->val < val) return searchBST(root->right,val);
+        return root;
     }
 };
