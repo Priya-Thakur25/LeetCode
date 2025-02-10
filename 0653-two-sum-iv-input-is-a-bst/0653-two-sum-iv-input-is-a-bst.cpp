@@ -11,23 +11,23 @@
  */
 class Solution {
 public:
-void inorder(TreeNode* root, vector<int>&ans){
-    if(root == NULL) return;
-
-    inorder(root->left, ans);
-    ans.push_back(root->val);
-    inorder(root->right, ans);
-}
+    void solve(vector<int>&ans, TreeNode* root){
+        if(root == NULL) return;
+        solve(ans, root->left);
+        ans.push_back(root->val);
+        solve(ans, root->right);
+    }
     bool findTarget(TreeNode* root, int k) {
         vector<int>ans;
-        inorder(root, ans);
-        int e=0,s = 0;
-        int n = ans.size()-1;
-        for(s=0,e=n; s<e; ){
-            if(ans[s]+ans[e] == k) return true;
-            if(ans[s]+ans[e] > k) e--;
+        solve(ans, root);
+        int n = ans.size();
+        int s=0, e=n-1;
+        while(s < e){
+            int sum = ans[s] + ans[e];
+            if(sum == k) return 1;
+            if(sum > k) e--;
             else s++;
         }
-        return false;
+        return 0;
     }
 };
