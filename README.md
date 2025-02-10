@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Priya-Thakur25/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2886-faulty-keyboard](https://github.com/Priya-Thakur25/LeetCode/tree/master/2886-faulty-keyboard) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Priya-Thakur25/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3447-clear-digits](https://github.com/Priya-Thakur25/LeetCode/tree/master/3447-clear-digits) |
 ## Trie
 |  |
 | ------- |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Priya-Thakur25/LeetCode/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Priya-Thakur25/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Priya-Thakur25/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3447-clear-digits](https://github.com/Priya-Thakur25/LeetCode/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/Priya-Thakur25/LeetCode/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Priya-Thakur25/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Dynamic Programming
@@ -537,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Priya-Thakur25/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Priya-Thakur25/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Priya-Thakur25/LeetCode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3447-clear-digits](https://github.com/Priya-Thakur25/LeetCode/tree/master/3447-clear-digits) |
 ## Sorting
 |  |
 | ------- |
