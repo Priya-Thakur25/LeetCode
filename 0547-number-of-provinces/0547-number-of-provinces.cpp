@@ -1,23 +1,24 @@
 class Solution {
 public:
-void solve(int& src, vector<vector<int>>& isConnected, int n, unordered_map<int,bool>&isVisited){
-    isVisited[src] = 1;
-    for(int i=0; i<n; i++){
-        int nbr = i;
-        if(src != nbr && isConnected[src][nbr] == 1){
-            if(!isVisited[nbr]){
-                solve(nbr, isConnected, n, isVisited);
+    void solveUsingDFS(int& src, map<int,bool>&visited, vector<vector<int>>&isConnected){
+        int col = isConnected.size();
+        int row = src;
+        visited[src] = true;
+        for(int i=0; i<col; i++){
+            if(row != i && isConnected[row][i] == 1){
+                if(!visited[i]) solveUsingDFS(i, visited, isConnected);
             }
         }
     }
-}
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int count = 0, n = isConnected.size();
-        unordered_map<int,bool>isVisited;
-        for(int i=0; i<n; i++){
-            if(!isVisited[i]){
+        map<int,bool>visited;
+        int src = 0;
+        int row = isConnected.size();
+        int count = 0;
+        for(int i=0; i<row; i++){
+            if(!visited[i]){
                 count++;
-                solve(i, isConnected, n, isVisited);
+                solveUsingDFS(i, visited, isConnected);
             }
         }
         return count;
