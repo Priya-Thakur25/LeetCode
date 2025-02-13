@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/Priya-Thakur25/LeetCode/tree/master/0952-word-subsets) |
 | [1014-k-closest-points-to-origin](https://github.com/Priya-Thakur25/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1025-minimum-cost-for-tickets](https://github.com/Priya-Thakur25/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
+| [1036-rotting-oranges](https://github.com/Priya-Thakur25/LeetCode/tree/master/1036-rotting-oranges) |
 | [1063-best-sightseeing-pair](https://github.com/Priya-Thakur25/LeetCode/tree/master/1063-best-sightseeing-pair) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Priya-Thakur25/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1256-rank-transform-of-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/1256-rank-transform-of-an-array) |
@@ -619,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/Priya-Thakur25/LeetCode/tree/master/0854-making-a-large-island) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1036-rotting-oranges](https://github.com/Priya-Thakur25/LeetCode/tree/master/1036-rotting-oranges) |
 | [1254-deepest-leaves-sum](https://github.com/Priya-Thakur25/LeetCode/tree/master/1254-deepest-leaves-sum) |
 | [1396-count-servers-that-communicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Priya-Thakur25/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -831,6 +833,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Priya-Thakur25/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0787-sliding-puzzle](https://github.com/Priya-Thakur25/LeetCode/tree/master/0787-sliding-puzzle) |
 | [0854-making-a-large-island](https://github.com/Priya-Thakur25/LeetCode/tree/master/0854-making-a-large-island) |
+| [1036-rotting-oranges](https://github.com/Priya-Thakur25/LeetCode/tree/master/1036-rotting-oranges) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Priya-Thakur25/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1396-count-servers-that-communicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Priya-Thakur25/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
