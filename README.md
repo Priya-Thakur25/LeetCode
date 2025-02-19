@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/Priya-Thakur25/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/Priya-Thakur25/LeetCode/tree/master/1036-rotting-oranges) |
 | [1063-best-sightseeing-pair](https://github.com/Priya-Thakur25/LeetCode/tree/master/1063-best-sightseeing-pair) |
+| [1073-number-of-enclaves](https://github.com/Priya-Thakur25/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Priya-Thakur25/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1256-rank-transform-of-an-array](https://github.com/Priya-Thakur25/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/Priya-Thakur25/LeetCode/tree/master/1349-check-if-it-is-a-straight-line) |
@@ -642,6 +643,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Priya-Thakur25/LeetCode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Priya-Thakur25/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1254-deepest-leaves-sum](https://github.com/Priya-Thakur25/LeetCode/tree/master/1254-deepest-leaves-sum) |
 | [1396-count-servers-that-communicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Priya-Thakur25/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -784,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Priya-Thakur25/LeetCode/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/Priya-Thakur25/LeetCode/tree/master/0854-making-a-large-island) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/Priya-Thakur25/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1254-deepest-leaves-sum](https://github.com/Priya-Thakur25/LeetCode/tree/master/1254-deepest-leaves-sum) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Priya-Thakur25/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1396-count-servers-that-communicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/1396-count-servers-that-communicate) |
@@ -862,6 +865,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-sliding-puzzle](https://github.com/Priya-Thakur25/LeetCode/tree/master/0787-sliding-puzzle) |
 | [0854-making-a-large-island](https://github.com/Priya-Thakur25/LeetCode/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/Priya-Thakur25/LeetCode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Priya-Thakur25/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Priya-Thakur25/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1396-count-servers-that-communicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Priya-Thakur25/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -937,6 +941,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Priya-Thakur25/LeetCode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Priya-Thakur25/LeetCode/tree/master/0684-redundant-connection) |
 | [0854-making-a-large-island](https://github.com/Priya-Thakur25/LeetCode/tree/master/0854-making-a-large-island) |
+| [1073-number-of-enclaves](https://github.com/Priya-Thakur25/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1396-count-servers-that-communicate](https://github.com/Priya-Thakur25/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/Priya-Thakur25/LeetCode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Priya-Thakur25/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
