@@ -1,59 +1,41 @@
 class Graph{
     public:
-    unordered_map<int,list<int>>adjList;
-    
-    void insert(int u, int v){
-        adjList[u].push_back(v);
-    }
-
-    void topoOrder(vector<int>&Order){
-        unordered_map<int,int>inDegree;
-        queue<int>q;
-
-        for(auto mp: adjList){
-            inDegree[mp.first] = 0;
-        }
-
-        for(auto i:adjList){
-            for(auto nbr: i.second){
-                inDegree[nbr]++;
-            }
-        }
-
-        for(auto i: adjList){
-            if(inDegree[i.first] == 0){
-                q.push(i.first);
-            }
-        }
-
-        while(!q.empty()){
-            int frontNode = q.front();
-            q.pop();
-            Order.push_back(frontNode);
-            for(auto nbr: adjList[frontNode]){
-                inDegree[nbr]--;
-                if(inDegree[nbr] == 0){
-                    q.push(nbr);
-                }
-            }
-        }
-
-    }
+    unordered_map<int,vector<int>>adjList;
+    void insertEdge(int u, int v, int direc){ adjList[u].push_back(v);}
 };
 class Solution {
 public:
-    bool canFinish(int numCourses, vector<vector<int>>& p) {
-        Graph g;
-        if(p.size() == 0) return true;
-        for(auto i: p){
-            g.insert(i[1],i[0]);
+    void solveusingbfs(int src, vector<int>&ans, unordered_map<int,vector<int>>&adj){
+        unordered_map<int,int>indegree;
+        for(auto i: adj) indegree[i.first] = 0;
+        for(auto i: adj){
+            for(auto j: i.second){
+                indegree[j]++;
+            }
         }
 
-        for(int i=0; i<numCourses; i++){
-            g.adjList[i];
+        queue<int>q;
+        for(auto i: adj){
+            if(indegree[i.first] == 0) q.push(i.first);
         }
-        vector<int>Order;
-        g.topoOrder(Order);
-        return Order.size() == numCourses;
+
+        while(!q.empty()){
+            int front = q.front();
+            ans.push_back(front);
+            q.pop();
+            for(auto nbr: adj[front]){
+                indegree[nbr]--;
+                if(indegree[nbr] == 0) q.push(nbr);
+            }
+        }
+    }
+    bool canFinish(int numCourses, vector<vector<int>>& p) {
+        Graph g;
+        for(auto i: p){
+            g.insertEdge(i[1], i[0], 1);
+        }
+        vector<int>ans;
+        solveusingbfs(0,ans,g.adjList);
+        return (ans.size() == g.adjList.size());
     }
 };
