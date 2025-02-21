@@ -648,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/Priya-Thakur25/LeetCode/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/Priya-Thakur25/LeetCode/tree/master/0733-flood-fill) |
 | [0787-sliding-puzzle](https://github.com/Priya-Thakur25/LeetCode/tree/master/0787-sliding-puzzle) |
+| [0820-find-eventual-safe-states](https://github.com/Priya-Thakur25/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Priya-Thakur25/LeetCode/tree/master/0854-making-a-large-island) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -795,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Priya-Thakur25/LeetCode/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/Priya-Thakur25/LeetCode/tree/master/0733-flood-fill) |
+| [0820-find-eventual-safe-states](https://github.com/Priya-Thakur25/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Priya-Thakur25/LeetCode/tree/master/0854-making-a-large-island) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Priya-Thakur25/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Priya-Thakur25/LeetCode/tree/master/1073-number-of-enclaves) |
@@ -900,6 +902,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Priya-Thakur25/LeetCode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Priya-Thakur25/LeetCode/tree/master/0684-redundant-connection) |
+| [0820-find-eventual-safe-states](https://github.com/Priya-Thakur25/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Priya-Thakur25/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/Priya-Thakur25/LeetCode/tree/master/1558-course-schedule-iv) |
 | [2201-valid-arrangement-of-pairs](https://github.com/Priya-Thakur25/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
@@ -944,6 +947,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Priya-Thakur25/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0820-find-eventual-safe-states](https://github.com/Priya-Thakur25/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/Priya-Thakur25/LeetCode/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Priya-Thakur25/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Union Find
