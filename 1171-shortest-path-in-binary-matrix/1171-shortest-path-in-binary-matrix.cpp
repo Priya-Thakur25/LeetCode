@@ -22,7 +22,7 @@ public:
             int col = q.front().col;
             int dist = q.front().dist;
             if(row == r-1 && col == c-1) 
-            ans = dist;
+            return dist+1;
             q.pop();
             for(int i=0; i<8; i++){
                 int nrow = drow[i] + row;
@@ -33,6 +33,6 @@ public:
                 }
             }
         }
-        return (ans == INT_MAX) ? -1 : ans + 1;
+        return -1;
     }
 };
