@@ -1,40 +1,45 @@
+class DisjointSet{
+    public:
+    vector<int>rank,parent;
+    DisjointSet(int n){
+        parent.resize(n+1);
+        rank.resize(n+1,0);
+        for(int i=0; i<=n; i++) parent[i] = i;
+    }
+
+    int findParent(int u){
+        if(parent[u] == u) return u;
+        return parent[u] = findParent(parent[u]);
+    }
+
+    void UnionFind(int u, int v){
+        int up_u = findParent(u);
+        int up_v = findParent(v);
+
+        if(up_u == up_v) return;
+        if(rank[up_u] > rank[up_v]) parent[up_v] = up_u;
+        else if(rank[up_u] < rank[up_v]) parent[up_u] = up_v;
+        else{
+            parent[up_u] = up_v;
+            rank[up_v]++;
+        }
+    }
+};
+
 class Solution {
 public:
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        unordered_map<int, vector<int>> graph;
-
-        auto isConnected = [&](int u, int v) {
-            unordered_set<int> visited;
-            stack<int> stack;
-            stack.push(u);
-
-            while (!stack.empty()) {
-                int node = stack.top();
-                stack.pop();
-
-                if (visited.count(node)) continue;
-                visited.insert(node);
-
-                if (node == v) return true;
-
-                for (int neighbor : graph[node]) {
-                    stack.push(neighbor);
-                }
+        int  n = edges.size();
+        DisjointSet d(n);
+        int u = 0; int v = 0;
+        for(auto i: edges){
+            if(d.findParent(i[0]) != d.findParent(i[1])){
+                d.UnionFind(i[0], i[1]);
             }
-            return false;
-        };
-
-        for (const auto& edge : edges) {
-            int u = edge[0], v = edge[1];
-
-            if (graph.count(u) && graph.count(v) && isConnected(u, v)) {
-                return edge;
+            else{
+                u = i[0]; v = i[1];
             }
-
-            graph[u].push_back(v);
-            graph[v].push_back(u);
         }
-
-        return {};
+        return {u,v};
     }
 };
