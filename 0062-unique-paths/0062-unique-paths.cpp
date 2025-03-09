@@ -1,21 +1,31 @@
 class Solution {
 public:
-int solve(vector<vector<int>>grid, int i, int j, int m, int n, vector<vector<int>>&dp){
-    if(i == m-1 && j == n-1) return 1;
-    int ans = 0;
-    if(dp[i][j] != -1) return dp[i][j];
-    grid[i][j] = -1;
-    if(j+1 < n && grid[i][j+1] == 0) ans += solve(grid, i, j+1, m, n, dp);
-    if(i+1 < m && grid[i+1][j] == 0) ans += solve(grid, i+1, j, m, n, dp);
-    grid[i][j] = 0;
-    dp[i][j] = ans;
-    return dp[i][j];
-}
-    int uniquePaths(int m, int n) {
-        vector<vector<int>>grid(m,vector<int>(n,0));
-        vector<vector<int>>dp(m,vector<int>(n,-1));
+    int solve(int i, int j, int m, int n, int& count) {
+        if (i > m || j > n)
+            return 0;
+        if (i == m - 1 && j == n - 1) {
+            count++;
+            return 0;
+        }
+
+        solve(i, j + 1, m, n, count);
+        solve(i + 1, j, m, n, count);
+        return 0;
+    }
+    int solveMem(int i, int j, int m, int n, vector<vector<int>>&dp) {
+        if (i > m || j > n) return 0;
+        if (i == m - 1 && j == n - 1) return 1;
+
+        if(dp[i][j] != -1) return dp[i][j];
         int count = 0;
-        count = solve(grid,0, 0, m,n, dp);
-        return count;
+        count += solveMem(i, j + 1, m, n,dp);
+        count += solveMem(i + 1, j, m, n,dp);
+        return dp[i][j] = count;
+    }
+    int uniquePaths(int m, int n) {
+        int count = 0;
+        // return solveMem(0, 0, m, n);
+        vector<vector<int>>dp(m+1,vector<int>(n+1,-1));
+        return solveMem(0,0,m,n,dp);
     }
 };
