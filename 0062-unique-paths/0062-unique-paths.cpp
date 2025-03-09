@@ -25,18 +25,30 @@ public:
     int uniquePaths(int m, int n) {
         int count = 0;
         // return solveMem(0, 0, m, n);
-        vector<vector<int>>dp(m+1,vector<int>(n,0));
-        for(int i=0; i<m; i++) dp[i][n-1] = 1;
-        for(int i=0; i<n; i++) dp[m-1][i] = 1;
-        // return solveMem(0,0,m,n,dp);
-        for(int i=m-2; i>=0; i--){
+        // vector<vector<int>>dp(m+1,vector<int>(n,0));
+        // for(int i=0; i<m; i++) dp[i][n-1] = 1;
+        // for(int i=0; i<n; i++) dp[m-1][i] = 1;
+        // // return solveMem(0,0,m,n,dp);
+        // for(int i=m-2; i>=0; i--){
+        //     for(int j=n-2; j>=0; j--){
+        //         int count = 0;
+        //         count +=dp[i][j + 1];
+        //         count += dp[i + 1][j];
+        //         dp[i][j] = count;
+        //     }
+        // }
+        // return dp[0][0];
+
+        vector<int>curr(n,0);
+        vector<int>next(n,0);
+        curr[n-1] = 1;
+        next[n-1] = 1;
+        for(int i=m-1; i>=0; i--){
             for(int j=n-2; j>=0; j--){
-                int count = 0;
-                count +=dp[i][j + 1];
-                count += dp[i + 1][j];
-                dp[i][j] = count;
+                 curr[j] = curr[j + 1] + next[j];
             }
+            next = curr;
         }
-        return dp[0][0];
+        return curr[0];
     }
 };
