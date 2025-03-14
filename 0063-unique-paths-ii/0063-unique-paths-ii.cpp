@@ -36,7 +36,7 @@ public:
         int m = obstacleGrid[0].size();
         if(obstacleGrid[0][0] == 1) return 0;
         // return solve(0,0,n,m,obstacleGrid);
-        vector<vector<long long>> dp(n + 1, vector<long long>(m + 1, 0));
+        vector<vector<long long>> dp(n, vector<long long>(m, 0));
         dp[n - 1][m - 1] = (obstacleGrid[n - 1][m - 1] == 0) ? 1 : 0;
         // return solveUsingMem(0,0,n,m,obstacleGrid,dp);
         for (int i = n - 1; i >= 0; i--) {
