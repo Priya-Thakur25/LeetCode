@@ -1,66 +1,56 @@
 class Solution {
 public:
-    int solve(string text1, string text2, int i, int j){
-        if(i >= text1.length()) return 0;
-        if(j >= text2.length()) return 0;
+    int solve(int i, int j, string& text1, string& text2) {
+        int n = text1.length(), m = text2.length();
+        if (i >= n || j >= m)
+            return 0;
 
-        int ans = 0;
-        if(text1[i] == text2[j]) ans = 1 + solve(text1, text2, i+1, j+1);
-        else ans = 0 + max(solve(text1, text2, i+1, j), solve(text1, text2, i, j+1));
-        return ans;
-    }
-
-    int solveUsingMem(string& text1, string& text2, int i, int j, vector<vector<int>>&dp){
-        if(i >= text1.length()) return 0;
-        if(j >= text2.length()) return 0;
-
-        if(dp[i][j] != -1) return dp[i][j];
-        int ans = 0;
-        if(text1[i] == text2[j]) ans = 1 + solveUsingMem(text1, text2, i+1, j+1, dp);
-        else ans = 0 + max(solveUsingMem(text1, text2, i+1, j,dp), solveUsingMem(text1, text2, i, j+1,dp));
-        dp[i][j] = ans;
-        return dp[i][j];
-    }
-
-    int solveUsingTab(string a, string b){
-        vector<vector<int>>dp(a.length()+1, vector<int>(b.length()+1, 0));
-
-        for(int i=a.length()-1; i>=0; i--){
-            for(int j=b.length()-1; j>=0; j--){
-                int ans = 0;
-                if(a[i] == b[j]) ans = 1 + dp[i+1][j+1];
-                else ans = 0 + max(dp[i+1][j], dp[i][j+1]);
-                dp[i][j] = ans;
-            }
+        int same = 0, diff = 0;
+        if (text1[i] == text2[j]) {
+            same = 1 + solve(i + 1, j + 1, text1, text2);
+        } else {
+            int diff1 = solve(i, j + 1, text1, text2);
+            int diff2 = solve(i + 1, j, text1, text2);
+            diff = max(diff1, diff2);
         }
-
-        return dp[0][0];
+        return max(same, diff);
     }
+    int solveUsingMem(int i, int j, string text1, string text2,
+                      vector<vector<int>>& dp) {
+        int n = text1.length(), m = text2.length();
+        if (i >= n || j >= m)
+            return 0;
 
-    int solveSO(string a, string b){
-        vector<int>curr(a.length()+1,0);
-        vector<int>next(a.length()+1,0);
-
-        for(int j=b.length()-1; j>=0; j--){
-            for(int i=a.length()-1; i>=0; i--){
-                int ans = 0;
-                if(a[i] == b[j]) ans = 1 + next[i+1];
-                else ans = 0 + max(curr[i+1], next[i]);
-                curr[i] = ans;
-            }
-            next = curr;
+        if (dp[i][j] != -1)
+            return dp[i][j];
+        int same = 0, diff = 0;
+        if (text1[i] == text2[j]) {
+            same = 1 + solveUsingMem(i + 1, j + 1, text1, text2, dp);
+        } else {
+            int diff1 = solveUsingMem(i, j + 1, text1, text2, dp);
+            int diff2 = solveUsingMem(i + 1, j, text1, text2, dp);
+            diff = max(diff1, diff2);
         }
-
-        return next[0];
+        return dp[i][j] = max(same, diff);
     }
     int longestCommonSubsequence(string text1, string text2) {
-        int i = 0;
-        int j = 0;
-        vector<vector<int>>dp(text1.length(), vector<int>(text2.length(),-1));
-        // return solve(text1, text2, i, j);
-        // return solveUsingMem(text1, text2, i, j, dp);
-        // return solveUsingTab(text1, text2);
-
-        return solveSO(text1, text2);
+        int n = text1.length(), m = text2.length();
+        vector<vector<int>> dp(n + 2, vector<int>(m + 2, 0));
+        // return solveUsingMem(0,0,text1,text2,dp);
+        // bottom up approach
+        for (int i = n-1; i >= 0; i--) {
+            int same = 0, diff = 0;
+            for (int j = m-1; j >= 0; j--) {
+                if (text1[i] == text2[j]) {
+                    same = 1 + dp[i + 1][j + 1];
+                } else {
+                    int diff1 = dp[i][j + 1];
+                    int diff2 = dp[i + 1][j];
+                    diff = max(diff1, diff2);
+                }
+                dp[i][j] = max(same, diff);
+            }
+        }
+        return dp[0][0];
     }
 };
