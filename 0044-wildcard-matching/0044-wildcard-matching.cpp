@@ -52,12 +52,40 @@ public:
     }
     bool isMatch(string s, string p) {
         int n1 = s.length(), n2 = p.length();
-        vector<vector<int>> dp(n1 + 2, vector<int>(n2 + 2, 0));
-        // return solveUsingMem(0,0,s,p,dp);
+        // vector<vector<int>> dp(n1 + 2, vector<int>(n2 + 2, 0));
+        // // return solveUsingMem(0,0,s,p,dp);
+        // for (int i = n1; i >= 0; i--) {
+        //     for (int j = n2; j >= 0; j--) {
+        //         if (i >= n1 && j >= n2)
+        //             dp[i][j] = 1;
+        //         else if (i == n1 && j < n2) {
+        //             bool flag = 1;
+        //             for (int it = j; it < n2; it++) {
+        //                 if (p[it] != '*')
+        //                     flag = 0;
+        //             }
+        //             if (flag == 1)
+        //                 dp[i][j] = 1;
+        //         } else if (i >= n1 || j >= n2)
+        //             dp[i][j] = 0;
+        //         else {
+        //             bool ans = 0;
+        //             if (s[i] == p[j] || p[j] == '?')
+        //                 ans = dp[i + 1][j + 1];
+        //             else if (p[j] == '*') {
+        //                 ans = ((dp[i][j + 1] || dp[i + 1][j]) ||
+        //                        dp[i + 1][j + 1]);
+        //             }
+        //             dp[i][j] = ans;
+        //         }
+        //     }
+        // }
+        // return dp[0][0];
+        vector<int>next(n2+2,0),curr(n2+2,0);
         for (int i = n1; i >= 0; i--) {
             for (int j = n2; j >= 0; j--) {
                 if (i >= n1 && j >= n2)
-                    dp[i][j] = 1;
+                    curr[j] = 1;
                 else if (i == n1 && j < n2) {
                     bool flag = 1;
                     for (int it = j; it < n2; it++) {
@@ -65,21 +93,21 @@ public:
                             flag = 0;
                     }
                     if (flag == 1)
-                        dp[i][j] = 1;
+                        curr[j] = 1;
                 } else if (i >= n1 || j >= n2)
-                    dp[i][j] = 0;
+                    curr[j] = 0;
                 else {
                     bool ans = 0;
                     if (s[i] == p[j] || p[j] == '?')
-                        ans = dp[i + 1][j + 1];
+                        ans = next[j + 1];
                     else if (p[j] == '*') {
-                        ans = ((dp[i][j + 1] || dp[i + 1][j]) ||
-                               dp[i + 1][j + 1]);
+                        ans = ((curr[j + 1] || curr[j]) ||
+                               next[j + 1]);
                     }
-                    dp[i][j] = ans;
+                    curr[j] = ans;
                 }
-            }
+            } next = curr;
         }
-        return dp[0][0];
+        return next[0];
     }
 };
