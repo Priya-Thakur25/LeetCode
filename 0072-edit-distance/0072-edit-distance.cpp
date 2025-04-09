@@ -43,29 +43,56 @@ public:
     }
     int minDistance(string word1, string word2) {
         int n1 = word1.length(), n2 = word2.length();
-        vector<vector<int>> dp(n1 + 2, vector<int>(n2 + 2, 0));
-        // return solveUsingMem(0,0,word1,word2,dp);
+        // vector<vector<int>> dp(n1 + 2, vector<int>(n2 + 2, 0));
+        // // return solveUsingMem(0,0,word1,word2,dp);
+        // for (int i = n1; i >= 0; i--) {
+        //     for (int j = n2; j >= 0; j--) {
+        //         if (i == n1)
+        //             dp[i][j] = n2 - j;
+        //         else if (j == n2)
+        //             dp[i][j] = n1 - i;
+        //         else {
+        //             int ans = 0;
+        //             if (word1[i] == word2[j])
+        //                 ans = 0 + dp[i + 1][j + 1];
+        //             else {
+        //                 int insert = 1 + dp[i][j + 1];
+        //                 int delet = 1 + dp[i + 1][j];
+        //                 int replace = 1 + dp[i + 1][j + 1];
+        //                 ans = min(insert, min(delet, replace));
+        //             }
+
+        //             dp[i][j] = ans;
+        //         }
+        //     }
+        // }
+        // return dp[0][0];
+
+        //SO
+        vector<int>next(n2+2,0);
         for (int i = n1; i >= 0; i--) {
+            vector<int>curr(n2+2,0);
             for (int j = n2; j >= 0; j--) {
                 if (i == n1)
-                    dp[i][j] = n2 - j;
+                    curr[j] = n2 - j;
                 else if (j == n2)
-                    dp[i][j] = n1 - i;
+                    curr[j] = n1 - i;
                 else {
                     int ans = 0;
                     if (word1[i] == word2[j])
-                        ans = 0 + dp[i + 1][j + 1];
+                        ans = 0 + next[j + 1];
                     else {
-                        int insert = 1 + dp[i][j + 1];
-                        int delet = 1 + dp[i + 1][j];
-                        int replace = 1 + dp[i + 1][j + 1];
+                        int insert = 1 + curr[j + 1];
+                        int delet = 1 + next[j];
+                        int replace = 1 + next[j + 1];
                         ans = min(insert, min(delet, replace));
                     }
 
-                    dp[i][j] = ans;
+                   curr[j] = ans;
                 }
             }
+            next = curr;
         }
-        return dp[0][0];
+        return next[0];
     }
 };
