@@ -1,79 +1,43 @@
 class Solution {
-    int solve(string& w1, string& w2, int i, int j) {
-        // MOST IMPORTANT BASE CASE
-        if (i == w1.length())
-            return w2.length() - j;
-        if (j == w2.length())
-            return w1.length() - i;
-
-        int mini = 0;
-        if (w1[i] == w2[j]) {
-            mini = 0 + solve(w1, w2, i + 1, j + 1);
-        } else {
-            int opt1 = 1 + solve(w1, w2, i, j + 1);     // insert
-            int opt2 = 1 + solve(w1, w2, i + 1, j);     // delete
-            int opt3 = 1 + solve(w1, w2, i + 1, j + 1); // replace
-            mini = min(opt1, min(opt2, opt3));
-        }
-
-        return mini;
-    }
-    
-    int solveUsingMemo(string& w1, string& w2, int i, int j,
-                       vector<vector<int>>& dp) {
-        // MOST IMPORTANT BASE CASE
-        if (i == w1.length())
-            return w2.length() - j;
-        if (j == w2.length())
-            return w1.length() - i;
-
-        if (dp[i][j] != -1)
-            return dp[i][j];
-        int mini = 0;
-        if (w1[i] == w2[j]) {
-            mini = 0 + solveUsingMemo(w1, w2, i + 1, j + 1, dp);
-        } else {
-            int opt1 = 1 + solveUsingMemo(w1, w2, i, j + 1, dp);     // insert
-            int opt2 = 1 + solveUsingMemo(w1, w2, i + 1, j, dp);     // delete
-            int opt3 = 1 + solveUsingMemo(w1, w2, i + 1, j + 1, dp); // replace
-            mini = min(opt1, min(opt2, opt3));
-        }
-
-        dp[i][j] = mini;
-        return dp[i][j];
-    }
-    int solveUsingTab(string& w1, string& w2) {
-        vector<vector<int>> dp(w1.length() + 1,
-                               vector<int>(w2.length() + 1, 0));
-
-        for (int i = 0; i < w2.length(); i++) {
-            dp[w1.length()][i] = w2.length() - i;
-        }
-        for (int j = 0; j < w1.length(); j++) {
-            dp[j][w2.length()] = w1.length() - j;
-        }
-        for (int i = w1.length() - 1; i >= 0; i--) {
-            for (int j = w2.length() - 1; j >= 0; j--) {
-                int mini = 0;
-                if (w1[i] == w2[j]) {
-                    mini = 0 + dp[i+1][j+1];
-                } else {
-                    int opt1 = 1 + dp[i][j+1]; // insert
-                    int opt2 = 1 + dp[i+1][j]; // delete
-                    int opt3 = 1 + dp[i+1][j+1]; // replace
-                    mini = min(opt1, min(opt2, opt3));
-                }
-                dp[i][j] = mini;
-            }
-        }
-        return dp[0][0];
-    }
-
 public:
+    int solve(int i, int j, string& s1, string& s2){
+        int n1 = s1.length(), n2 = s2.length();
+        if(i == n1) return n2-j;
+        if(j == n2) return n1-i;
+
+        int ans = 0;
+        if(s1[i] == s2[j]) ans = 0 + solve(i+1, j+1, s1, s2);
+        else{
+            int insert = 1 + solve(i,j+1,s1,s2);
+            int delet = 1 + solve(i+1,j,s1,s2);
+            int replace = 1 + solve(i+1, j+1, s1,s2);
+            ans = min(insert,min(delet,replace));
+        }
+
+        return ans;
+        
+    }
+    int solveUsingMem(int i, int j, string& s1, string& s2, vector<vector<int>>&dp){
+        int n1 = s1.length(), n2 = s2.length();
+        if(i == n1) return n2-j;
+        if(j == n2) return n1-i;
+
+        if(dp[i][j] != -1) return dp[i][j];
+        int ans = 0;
+        if(s1[i] == s2[j]) ans = 0 + solveUsingMem(i+1, j+1, s1, s2, dp);
+        else{
+            int insert = 1 + solveUsingMem(i,j+1,s1,s2, dp);
+            int delet = 1 + solveUsingMem(i+1,j,s1,s2, dp);
+            int replace = 1 + solveUsingMem(i+1, j+1, s1,s2, dp);
+            ans = min(insert,min(delet,replace));
+        }
+
+        return dp[i][j] = ans;
+        
+    }
     int minDistance(string word1, string word2) {
-        // return solve(word1,word2,0,0);
-        // vector<vector<int>>dp(word1.length(),vector<int>(word2.length(),-1));
-        // return solveUsingMemo(word1,word2,0,0,dp);
-        return solveUsingTab(word1, word2);
+        int n1 = word1.length(), n2 = word2.length();
+        vector<vector<int>>dp(n1,vector<int>(n2,-1));
+        return solveUsingMem(0,0,word1,word2,dp);
     }
 };
