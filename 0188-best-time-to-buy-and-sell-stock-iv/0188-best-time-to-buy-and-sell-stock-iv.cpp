@@ -39,6 +39,29 @@ public:
         int n = prices.size();
          vector<vector<vector<int>>> dp(
             n + 1, vector<vector<int>>(2 + 1, vector<int>(k + 1, -1)));
-        return solveUsingMem(0,1,k,prices,dp);
+        // return solveUsingMem(0,1,k,prices,dp);
+        for (int i = n; i >= 0; i--) {
+            for (int buy = 0; buy <= 1; buy++) {
+                for (int most = 0; most <= k; most++) {
+                    if (i >= n || most == 0)
+                        dp[i][buy][most] = 0;
+                    else {
+                        int profit = 0;
+                        if (buy) {
+                            profit =
+                                max(-prices[i] + dp[i + 1][0][most],
+                                    dp[i + 1][1][most]);
+                        } else {
+                            profit = max(
+                                prices[i] + dp[i + 1][1][most - 1],
+                                dp[i + 1][0][most]);
+                        }
+
+                        dp[i][buy][most] = profit;
+                    }
+                }
+            }
+        }
+        return dp[0][1][k];
     }
 };
