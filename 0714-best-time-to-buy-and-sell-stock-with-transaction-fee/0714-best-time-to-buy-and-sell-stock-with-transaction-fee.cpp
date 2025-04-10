@@ -32,7 +32,7 @@ public:
     }
     int maxProfit(vector<int>& prices , int fee) {
         int n = prices.size();
-        vector<vector<int>> dp(n, vector<int>(2, -1));
+        vector<vector<int>> dp(n+1, vector<int>(2+1, -1));
         return solveUsingMem(0,1,prices,dp, fee);
         // for (int i = n-1; i >= 0; i--) {
         //     for (int buy = 0; buy <= 1; buy++) {
