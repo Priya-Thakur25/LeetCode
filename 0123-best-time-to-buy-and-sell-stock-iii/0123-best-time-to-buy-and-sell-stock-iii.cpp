@@ -37,31 +37,59 @@ public:
     }
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
-        vector<vector<vector<int>>> dp(
-            n + 1, vector<vector<int>>(2 + 1, vector<int>(2 + 1, 0)));
-        // return solveUsingMem(0,1,2,prices,dp);
+        // vector<vector<vector<int>>> dp(
+        //     n + 1, vector<vector<int>>(2 + 1, vector<int>(2 + 1, 0)));
+        // // return solveUsingMem(0,1,2,prices,dp);
+        // for (int i = n; i >= 0; i--) {
+        //     for (int buy = 0; buy <= 1; buy++) {
+        //         for (int most = 0; most <= 2; most++) {
+        //             if (i >= n || most == 0)
+        //                 dp[i][buy][most] = 0;
+        //             else {
+        //                 int profit = 0;
+        //                 if (buy) {
+        //                     profit =
+        //                         max(-prices[i] + dp[i + 1][0][most],
+        //                             dp[i + 1][1][most]);
+        //                 } else {
+        //                     profit = max(
+        //                         prices[i] + dp[i + 1][1][most - 1],
+        //                         dp[i + 1][0][most]);
+        //                 }
+
+        //                 dp[i][buy][most] = profit;
+        //             }
+        //         }
+        //     }
+        // }
+        // return dp[0][1][2];
+
+        //SO
+        vector<vector<int>>curr(2 + 1, vector<int>(2 + 1, 0));
+        vector<vector<int>>next(2 + 1, vector<int>(2 + 1, 0));
         for (int i = n; i >= 0; i--) {
             for (int buy = 0; buy <= 1; buy++) {
                 for (int most = 0; most <= 2; most++) {
                     if (i >= n || most == 0)
-                        dp[i][buy][most] = 0;
+                        curr[buy][most] = 0;
                     else {
                         int profit = 0;
                         if (buy) {
                             profit =
-                                max(-prices[i] + dp[i + 1][0][most],
-                                    dp[i + 1][1][most]);
+                                max(-prices[i] + next[0][most],
+                                    next[1][most]);
                         } else {
                             profit = max(
-                                prices[i] + dp[i + 1][1][most - 1],
-                                dp[i + 1][0][most]);
+                                prices[i] + next[1][most - 1],
+                                next[0][most]);
                         }
 
-                        dp[i][buy][most] = profit;
+                        curr[buy][most] = profit;
                     }
                 }
             }
+            next = curr;
         }
-        return dp[0][1][2];
+        return next[1][2];
     }
 };
