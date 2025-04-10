@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/Priya-Thakur25/LeetCode/tree/master/0645-set-mismatch) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Priya-Thakur25/LeetCode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Priya-Thakur25/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/Priya-Thakur25/LeetCode/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/Priya-Thakur25/LeetCode/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/Priya-Thakur25/LeetCode/tree/master/0731-my-calendar-ii) |
@@ -420,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/Priya-Thakur25/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0542-01-matrix](https://github.com/Priya-Thakur25/LeetCode/tree/master/0542-01-matrix) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Priya-Thakur25/LeetCode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Priya-Thakur25/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Priya-Thakur25/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1013-fibonacci-number](https://github.com/Priya-Thakur25/LeetCode/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/Priya-Thakur25/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
@@ -771,6 +773,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Priya-Thakur25/LeetCode/tree/master/0455-assign-cookies) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Priya-Thakur25/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/Priya-Thakur25/LeetCode/tree/master/0670-maximum-swap) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Priya-Thakur25/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0778-reorganize-string](https://github.com/Priya-Thakur25/LeetCode/tree/master/0778-reorganize-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Priya-Thakur25/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Priya-Thakur25/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
